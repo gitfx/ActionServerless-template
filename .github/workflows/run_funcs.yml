@@ -1,4 +1,4 @@
-name: Run funcions to generate and serve
+name: Run functions
 
 on: [push]
 
