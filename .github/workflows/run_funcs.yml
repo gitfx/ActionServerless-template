@@ -10,7 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Run funcs
-      uses: gitx-io/ActionServerless@v1
+      uses: gitx-io/ActionServerless@master
       with:
         filepath: ./
     - name: Git commit
