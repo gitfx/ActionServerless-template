@@ -1,4 +1,4 @@
 
-# GET /hello_world
+# GET /app/hello_world
 
 print("hello world!")
