@@ -2,6 +2,9 @@ name: Run functions
 
 on: [push, workflow_dispatch]
 
+permissions:
+  contents: write
+
 jobs:
   run_funcs:
     runs-on: ubuntu-latest
